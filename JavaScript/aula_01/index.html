@@ -1,0 +1,179 @@
+<html>
+    
+    <script>
+
+    //tipos de dados. 
+
+    // 1. String.
+    console.log("Olá Mundo")
+    console.log("cd meu dinheiro?")
+    // para mostra a aspas (duas aspas):
+    console.log('quero "\dinheiro\"') // escape..
+
+     // para mostra a aspas (duas aspas):
+     console.log('quero "\dinheiro\" ' )
+
+
+     console.log(1)
+
+     // a virgula é o ponto(.).
+     console.log(1.2) // 1,2
+     console.log(0.12) // .12
+
+     // 2. operadores Matematicos.
+
+     console.log(Math.PI) // math ( matemática , biblioteca).
+     console.log(Math.E) // número de Euler.
+
+     // 3. Boolean (tipo lógico).
+     console.log(true)
+     console.log(false)
+
+     // 4 . Null e Undefined   ( tipo de variáveis) .
+
+     console.log(null)
+     console.log(undefined)
+
+     console.log(typeof null)
+     console.log(typeof undefined)
+
+     console.log(typeof " ABC") // identifica uma string
+
+     console.log(typeof 1.4) // identifica um null //number
+
+     // 5 . Array ( vetor)
+     console.log([1,5,20])
+     console.log([1,"A","Palavra", true])
+
+     // 6 . Data
+
+     console.log(Date()) // me retorna a data ,a hora no padrão internacional.
+
+     console.log(new Data())
+
+     // JAN = 0
+     // FEV = 1
+     // MARC = 2
+     // ABRI = 3
+
+     console.log(new Data(2022, 3, 22)) //ANO, Mês E DATA
+     console.log(new Data(2022, 3, 22 , 10 ,20,56)) 
+     // ANO, Mês E DATA // HORAS : 10, 20 ,56.
+
+     // BÁSICO SOBRE VARIÁVEIS :
+
+     // 1 . variável .
+
+     var peso = 83
+     console.log(peso)
+     var altura = 1.67 
+
+     var resultado = peso / altura
+     console.log(resultado)
+
+
+     let nome = "João"
+     let Age = 23 
+
+
+     // Declarar variável 
+
+     // var : fica visivél em todo código .
+     // let : em um determinado local . (um lugar só)
+     // const : privar  e só pode usar determinado local . (um lugar só)
+
+
+     // 2 . Var Scoped
+
+     var x = 10;
+
+     console.log(x);
+
+     //  Escopo local
+
+     { // escopo local , fora das chaves é global 
+        console.log(x)
+        x = 20 
+        var y = 30
+        // como calcular dentro do escopo ?
+     }
+
+
+     console.log(x)
+     console.log(y)
+
+
+
+     let x = 10 
+     console.log(x)
+
+     {
+        console.log(x)
+        x = 20 //  vai executar pq está no escopo global e agora no local 
+  
+        y = 30 // só mostra aqui 
+     }
+     
+
+     console.log(y) // não vai mostrar pq a origem é o escopo local. 
+
+     // 4. Const scoped
+
+     const x = 10
+     console.log(x)
+
+     {
+        console.log(x)
+        x = 20 // não atribui valor pq o const não permite , então vai dar erro  
+     }
+
+
+
+     //5. Nomes e regras de nomeação 
+
+     // ou (_) ou ( a primeira letra do segundo nome maiúscula)
+
+     let nomeCompleto = 'Pedro'
+     let numero = 10
+
+     let cpf = "600.600.600-65"
+     let Cpf = "666.666.666-66"
+
+     // para as mesmas variaveis vc pode mudar a primeira letra : maiúscula ou minúscula.
+
+     // av. nas variáveis.
+
+    //  1. Atribuir ao declarar
+
+    let x // undefined aí vai mostrar (undefined)
+    console.log(typeof x)
+
+    x = 10 // agora é number pq vc atribui o valor nela .
+
+    y = null // objetc ( null)
+
+    // 6. agrupamento de declarações
+
+    // let name, age, address;
+    // name = "Fulano"
+    // age = 12 
+    // address = " RUA DA MOEDA"   
+    // console.log(name)
+    // console.log(age)
+    // console.log(address)
+
+    // 7. Concatenação e interpolação.
+
+     name = "Pedro";
+     age = 22;
+
+     address = {street:"Rua da Moeda", city:"Recife" ,N:129}
+    ["Rua da Moeda" , "Recife"]
+
+
+
+
+
+     
+    </script>
+</html>
