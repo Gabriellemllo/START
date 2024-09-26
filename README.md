@@ -1,3 +1,3 @@
-# Algoritmos em Portugol
+# Atividade do Curso Start ( Front-end)
 
-Este repositório contém algoritmos escritos na linguagem Portugol, uma linguagem fictícia usada para fins educacionais e para o ensino de lógica de programação.
+Este repositório contém todas as atividades do curso.
